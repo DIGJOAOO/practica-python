@@ -5,6 +5,7 @@ indice_no_viene = random.randint(0, len(invitados)-1)
 
 def invitar_personas():
     for i in range(len(invitados)):
+        print(f'vienen {len(invitados) - 1}')
         print(f'{invitados[i]} estas invita3')
     print(f"oh no... {invitados[indice_no_viene]} no puede venir")
     reinvitar_personas()
