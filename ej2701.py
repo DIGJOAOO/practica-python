@@ -12,7 +12,7 @@ class Restaurante:
 
 r1 = Restaurante("La Parrilla Feliz", "Parrilla")
 r2 = Restaurante("El sushi triste", "pescaderia")
-r3 = Restaurante("mc doland meh", "comida rapida")
+r3 = Restaurante("mc donald meh", "comida rapida")
 
 print(r1.nombre_restaurante)
 print(r1.tipo_cocina)

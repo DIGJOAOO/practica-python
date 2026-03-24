@@ -12,7 +12,7 @@ class Restaurante:
             print(f"- {i}")
 
     def abrir_restaurante(self):
-        print(f"{self.nombre_restaurante} está abierto.")
+        print(f"La {self.nombre_restaurante} está abierta.")
 
 
 rest = Restaurante("heladeria", "heladeria", ["crema del cielo", "dulce de leche", "vainilla"])
